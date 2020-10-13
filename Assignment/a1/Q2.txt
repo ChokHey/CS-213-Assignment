@@ -1,0 +1,2 @@
+Q2
+The value(in hex) of the little-endian, 8-byte integer stored at location 0x7020 = 5D 29 FE 43 A7 B4 26 06

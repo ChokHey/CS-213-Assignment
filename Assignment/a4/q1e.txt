@@ -1,0 +1,1 @@
+I suppose this is a Segmentation fault. Because %s got replaced by value of a string variable  (str), but here “id” is type int. So this is the reason why this line crashes. We should replace %s by %d, it would fix the problem.

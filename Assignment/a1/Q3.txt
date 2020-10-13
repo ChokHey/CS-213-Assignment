@@ -1,0 +1,4 @@
+Q3
+For example, 11 11 11 11 11, AB 12 12 AB, C1 22 22 C1.
+Therefore, any integer where the first 2 bytes are the second two bytes reversed have the same big and little endian representations.
+

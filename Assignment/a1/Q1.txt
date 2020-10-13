@@ -1,0 +1,2 @@
+Q1
+The value(in hex) of the little-endian, 4-byte integer stored at location 0x70d8 = 9E 45 0D 6D.

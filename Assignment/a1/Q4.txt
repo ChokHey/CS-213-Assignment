@@ -1,0 +1,5 @@
+Q4
+I realize that the computer on the Hubble that generated the coordinates is the DF-224 that stores the integer in memory as big-endian, however, Intel Core i7 processor that you recently purchased uses little-endian to store integer in memory. Therefore, 521829 is stored in two different ways in two computer.
+    521,829(decimal) = 00 07 F6 65(hex)
+-2,256,461(decimal) = FF DE 51 81(hex)
+Because my intel Core i7 processor uses little-endian, 00 is the least significants byte and 65 is the most significant byte. Therefore, 65 F6 07 00(hex) = 1710622464(decimal). For the same reason , we have 81 51 DE FF(hex) = -2125340929(decimal). So I should use 1710622464 and -2125340929 in my program to search for Proxima Centaur.
